@@ -2,7 +2,7 @@ import Router from './router'
 import { handleVerify } from './handlers/verify'
 
 const corsHeaders = {
-    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Origin': 'https://sybil.web3.workers.dev',
     'Access-Control-Allow-Methods': 'GET,HEAD,POST,OPTIONS',
     'Access-Control-Max-Age': '86400',
 }
